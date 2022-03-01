@@ -1,0 +1,203 @@
+.container{
+    width: 100%;
+}
+/* -----Header----- */
+header{
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(0,rgb(150,205,134),rgb(96,188,100));
+}
+header ul{
+    display: flex;
+    justify-content: center;
+}
+header li{
+    float: left;
+}
+header li a{
+    color: #fff;
+    padding: 16px 20px;
+    line-height: 50px; 
+    text-transform: uppercase;
+}
+header li :hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* -----Banner----- */
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+/* -----Content----- */
+.content{
+    margin: 10px 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+}
+.header_title_product{
+    display: flex;
+    justify-content: space-between;
+}
+.content h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.content h4:hover{
+    color: violet;
+}
+.header_title_product a{
+    line-height: 54px;
+    color: red;
+}
+.header_title_product a:hover{
+    color: rgba(172, 17, 17, 0.555);
+    font-weight: 700;
+}
+.container_product{
+    display: flex;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+}
+.product_item{
+    margin-right: 20px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid rgba(0,0,0,.05);
+}
+.product_item:hover{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    cursor: default;
+    transform: translate(0, -7px);
+}
+.product_item img{
+    width: 100%;
+    height: 85%;
+}
+.content_product {
+    margin: 5px 0px 5px 25px;
+}
+.container_product .price{
+    color: red;
+    margin-top: 10px;
+}
+.header_product2{
+    margin: 20px 0;
+}
+/*-----Introduce----- */
+.introduce{
+    width: 100%;
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgba(0,0,0,.05);
+}
+.introduce h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+}
+.introduce p{
+    text-align: justify;
+    line-height: 1.4;
+    font-family: serif;
+    font-size: medium;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* ---Content_contact--- */
+.content_contact{
+    text-align: center;
+    animation-name: hotphone;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+@keyframes hotphone {
+    from {background-color: red;color: #000;}
+    to {background-color: yellow; color: red;}
+}
+.content_contact h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+.content_contact span{
+    color: #000;;
+}
+.contact .lk{
+
+}
+.contact .lk:hover{
+    color: #000;
+    font-weight: 600;
+}
+/* ---FOOTER--- */
+footer{
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid rgba(0,0,0,.05);
+    justify-content: space-evenly;
+    display: flex;
+}
+.introduce_footer h1,
+.contact h1{
+    color: #233;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.introduce_footer p,
+.contact p{
+    color: #666;
+    font-weight: 500;
+}
+
+.introduce_footer {
+    width: 25%;
+}
+
+/* ---Copyright--- */
+.copyright{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+}
+.copyright p{
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 400;
+}
+/* ---Icon--- */
+.icon_contact_introduce{
+    margin-right: 10px;
+    width: 16px;
+}
+/* mobile */
+.mobile_menu{
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(21, 109, 40);
+    display: none;
+}
+i.fas.fa-bars {
+    padding: 12.5px;
+    font-size: 25px;
+    color: #fff;
+}
+.mobile_menu:hover{
+    background-color: #666;
+}
