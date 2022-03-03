@@ -15,6 +15,7 @@
     .introduce_footer{
         width: 100%;
         margin-top: 10px;
+        flex-direction: column;
     }
 
     .contact h1,
@@ -26,7 +27,7 @@
     }
     footer{
         margin-bottom: 20px;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .nav{
         justify-content: unset;
@@ -55,5 +56,15 @@
     .content_description{
         flex-wrap: wrap;
         height: auto;
+    }
+    footer{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .introduce_footer{
+        width: 95%;
+    }
+    .contact {
+        margin-left: 31.5%;
     }
 }
